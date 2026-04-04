@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "plugins": {
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.1",
+        "version": "4.3.1",
+        "installedAt": "2026-01-27T07:57:53.012Z",
+        "lastUpdated": "2026-02-22T05:14:20.170Z",
+        "gitCommitSha": "469a6d81ebb8b827e284d4afb090c6c622d97747"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-29T06:55:25.752Z",
+        "lastUpdated": "2026-01-29T06:55:25.752Z",
+        "gitCommitSha": "d49ad355866978f67129695a5b6dbdbff5feb951"
+      }
+    ],
+    "ruby-lsp@ruby-skills": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/ruby-skills/ruby-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-02T08:21:54.538Z",
+        "lastUpdated": "2026-03-02T08:21:54.538Z",
+        "gitCommitSha": "ca8fc8af6be23103762e687ff94a4d1ba216ec49"
+      }
+    ],
+    "ruby-skills@ruby-skills": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/ruby-skills/ruby-skills/0.5.0",
+        "version": "0.5.0",
+        "installedAt": "2026-03-02T08:22:07.144Z",
+        "lastUpdated": "2026-03-02T08:22:07.144Z",
+        "gitCommitSha": "ca8fc8af6be23103762e687ff94a4d1ba216ec49"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/claude-plugins-official/frontend-design/55b58ec6e564",
+        "version": "55b58ec6e564",
+        "installedAt": "2026-03-02T08:31:55.795Z",
+        "lastUpdated": "2026-03-02T08:31:55.795Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ],
+    "superpowers@superpowers-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/superpowers-marketplace/superpowers/4.3.1",
+        "version": "4.3.1",
+        "installedAt": "2026-03-03T05:38:12.147Z",
+        "lastUpdated": "2026-03-03T05:38:12.147Z",
+        "gitCommitSha": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/claude-plugins-official/playwright/55b58ec6e564",
+        "version": "55b58ec6e564",
+        "installedAt": "2026-03-04T09:03:08.999Z",
+        "lastUpdated": "2026-03-04T09:03:08.999Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ],
+    "Notion@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/claude-plugins-official/Notion/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-03-31T09:03:01.656Z",
+        "lastUpdated": "2026-03-31T09:03:01.656Z",
+        "gitCommitSha": "9847f2aa1a15f25df35ed1fb7b4557dbb60cd651"
+      }
+    ],
+    "debugging-code@debug-skill-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dihuynh/.claude/plugins/cache/debug-skill-marketplace/debugging-code/1.1.1",
+        "version": "1.1.1",
+        "installedAt": "2026-04-03T16:49:42.209Z",
+        "lastUpdated": "2026-04-03T16:49:42.209Z",
+        "gitCommitSha": "7fefada2c42b85856f66119b10587e822cb3061d"
+      }
+    ]
+  }
+}

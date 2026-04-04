@@ -1,0 +1,44 @@
+# Sensitive
+.credentials.json
+
+# Session/runtime data
+history.jsonl
+projects/
+debug/
+telemetry/
+todos/
+shell-snapshots/
+session-env/
+sessions/
+file-history/
+backups/
+paste-cache/
+cache/
+ide/
+logs/
+statsig/
+tasks/
+plans/
+downloads/
+agents/
+commands/
+
+# Reinstallable from manifests
+plugins/cache/
+plugins/marketplaces/
+plugins/repos/
+plugins/data/
+
+# Generated/temporary
+stats-cache.json
+policy-limits.json
+mcp-needs-auth-cache.json
+gsd-file-manifest.json
+settings.json.bak
+settings.json.orig
+install-counts-cache.json
+plugins/blocklist.json
+\\
+
+# macOS
+.DS_Store
