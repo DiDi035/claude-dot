@@ -1,13 +1,5 @@
 # AGENTS.md
 
-## Shell
-
-I use zsh. When writing shell scripts intended for the user, use zsh. For temporary stuff or stuff for your own use, you can use any shell you like, such as bash or fish.
-
-## New Deps
-
-Do a quick health check (recent releases/commits, adoption).
-
 ## Git, Github
 
 Use `gh` cli for all github interactions.
@@ -26,28 +18,9 @@ Whenever you open a pull request with `gh pr`, leave the description blank.
 - Unrecognized changes: assume other agent; keep going; focus your changes. If it causes issues, stop + ask user.
 - Leave breadcrumb notes in thread.
 
-## Tools
-
-### ast-grep
-
-`ast-grep` is available. Search and Rewrite code at large scale using precise AST patterns. Good for refactor.
-
-### gh
-
-- GitHub CLI for PRs/CI/releases. Given issue/PR URL (or `/pull/5`): use `gh`, not web search.
-- Examples: `gh issue view <url> --comments -R owner/repo`, `gh pr view <url> --comments --files -R owner/repo`.
-
-## Ruby
-
-Keep files ~100 LOC. Split as needed.
-
-### Testing Principles
+## Testing Principles
 
 - Never test the type or shape of return values. Tests should verify behavior, not implementation details or data structures.
 - Each public method should have a test for its default return value with no setup.
 - When testing that a method returns the same value as its default, first establish setup that would make it return the opposite without your intervention. Otherwise the test is meaningless.
 - Keep variables as close as possible to where they're used. Don't put them in setup or as constants at the top of the test class.
-
-### Code Style
-
-- Use boolean expressions with implicit return for predicate methods, not guard clauses or case statements with literal true/false.
