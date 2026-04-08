@@ -10,6 +10,7 @@ My Claude Code configuration. Skills, hooks, plugins, and coding conventions.
 ├── hooks/
 │   └── deny-rm-rf.jq  # Safety hook: blocks rm -rf, suggests trash
 ├── skills/            # Domain-specific skills
+│   ├── ast-grep/
 │   ├── architecture-designer/
 │   ├── deep-research/
 │   ├── golang-pro/
@@ -27,6 +28,7 @@ Each skill lives in `skills/<name>/SKILL.md` with optional reference docs.
 
 | Skill | Description | Source |
 |-------|-------------|--------|
+| `ast-grep` | Structural code search and rewriting using AST patterns | [ast-grep/agent-skill](https://github.com/ast-grep/agent-skill) |
 | `architecture-designer` | High-level system design, ADRs, and trade-off evaluation | [claude-skills](https://github.com/Jeffallan/claude-skills) |
 | `deep-research` | Multi-phase web research with parallel subagents, produces cited reports | [nateberkopec/dotfiles](https://github.com/nateberkopec/dotfiles/tree/main/files/home/.claude/skills/deep-research) |
 | `golang-pro` | Go concurrency, generics, gRPC, and table-driven tests | [claude-skills](https://github.com/Jeffallan/claude-skills) |
