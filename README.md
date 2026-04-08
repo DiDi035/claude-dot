@@ -1,6 +1,6 @@
 # ~/.claude
 
-My Claude Code configuration. Skills, hooks, plugins, and coding conventions — all version-controlled.
+My Claude Code configuration. Skills, hooks, plugins, and coding conventions.
 
 ## Structure
 
