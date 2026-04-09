@@ -2,13 +2,10 @@
 
 ## Git, Github
 
-Use `gh` cli for all github interactions.
-
-Safe by default: `git status/diff/log`. Push only when user asks.
-
-Destructive ops forbidden unless explicit (`reset --hard`, `clean`, `restore`, `rm`, …).
-
-Whenever you open a pull request with `gh pr`, leave the description blank.
+- Use `gh` cli for all github interactions.
+- Safe by default: `git status/diff/log`. Push only when user asks.
+- Destructive ops forbidden unless explicit (`reset --hard`, `clean`, `restore`, `rm`, …).
+- Whenever you open a pull request with `gh pr`, write a concise, well-written description. Keep it tight — no fluff. Use bullet points, Mermaid diagrams, or sequence diagrams when they explain complex ideas better than prose. If the repository you're working has a PR description template, follow it, otherwise, be creative.
 
 ## Critical Thinking
 
